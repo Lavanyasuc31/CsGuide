@@ -5,31 +5,6 @@
     box-sizing: border-box;
 }
 
-#first-nav{
-    background-color: aqua;
-    height: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#first-nav a{
-    font-size: 1.2rem;
-    margin-right: 11px;
-    color: black;
-    text-decoration: none;
-}
-
-#first-nav span{
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-decoration: underline;
-}
-
-#first-nav a{
-    font-size: 1.2rem;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -39,7 +14,6 @@ nav{
     position: sticky;
     top: 0;
     z-index: 999;
-    margin-top: 1px;
 }
 
 nav img{
@@ -59,66 +33,59 @@ nav ul{
 nav ul li{
     list-style-type: none;
     font-size: 1.1rem;
+    font-weight: 100;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    transition: color 0.8s ease;
 }
 
 nav ul li a:hover{
-    color: magenta;
+    /* scale: 2.2; */
+    font-size:1.3rem;
+    transition: 0.5s ease;
 }
 
-nav button:nth-of-type(1){
-    background-color:#083434;
-    border: 2px solid white;
+nav button{
+    background-color:white;
+    border: 1px solid black;
     width: 137px;
     height: 37px;
-    color: white;
-    border-radius: 7px;
-    font-size: 1rem;
-}
-
-
-nav button:nth-of-type(1):hover{
-    scale: 1.1;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-
-nav button:nth-of-type(2){
-    width: 219px;
-    height: 42px;
-    border-radius: 7px;
     color: black;
+    border-radius: 7px;
     font-size: 1rem;
-    background-color: yellow;
 }
 
-
-nav button:nth-of-type(2):hover{
+nav button:hover{
     scale: 1.1;
-    cursor: pointer;
     transition: 0.5s;
+    cursor: pointer;
 }
 
-#slider--{
+/* #slider--{
     color: white;
     font-size: 1.7rem;
     display: none;
-}
-
+} */
+/* -----------------------------------------end of nav------------------------------------- */
 #second-ff{
     display: flex;
     justify-content: space-around;
-    margin-top: 7%;
+    margin-top: 4%;
 }
 
 #second-ff h1{
     font-size: 3.2rem;
-    color: gray;
+
+    color: black;
+    font-weight: 50;
+}
+#second-ff h3{
+    color: rgb(114, 108, 108);
+    font-size: 1.5rem;
 }
 
 #second-ff p{
@@ -126,40 +93,28 @@ nav button:nth-of-type(2):hover{
     margin: 17px 0px 17px 0px;
 }
 
-#second-ff button{
-    background-color: mediumspringgreen;
-    width: 247px;
-    height: 49px;
-    border: none;
-    border-radius: 7px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-
-#second-ff button:hover{
-    background-color: orangered;
-    color: white;
-    scale: 1.1;
-    margin-left: 17px;
-    transition: 0.7s;
-}
-
 #second-ff-flex{
     display: flex;
-    margin-top: 2em;
+    margin-top: 3em;
     gap: 1em;
     color: white;
 }
 
 #second-ff-flex div:first-child{
     background-color: #083434;
-    height: 197px;
-    border-radius: 11px;
-    line-height: 17px;
     padding: 17px;
+    border-radius: 11px;
+    line-height: 33px;
 }
 
+#second-ff-flex a{
+    text-decoration: none;
+}
+#second-ff-flex h3
+{
+    color: white;
+    font-weight: normal;
+}
 #second-ff-flex div:nth-of-type(2){
     background-color: #083434;
     padding: 17px;
@@ -168,7 +123,6 @@ nav button:nth-of-type(2):hover{
 } 
 
 #second-ff-flex div:hover{
-    background-color: magenta;
     cursor: pointer;
     transition: 3s;
 }
@@ -177,7 +131,7 @@ nav button:nth-of-type(2):hover{
     font-weight: normal;
 }
 
-#second-ff-pflex{
+/* #second-ff-pflex{
     display: flex;
     justify-content: center;
     gap: 1.7em;
@@ -185,48 +139,55 @@ nav button:nth-of-type(2):hover{
 
 #second-ff-pflex h2{
     font-weight: normal;
-}
-
+} */
+/* ----------------------------------------------------------------------------------------- */
 
 #third-col--flex img{
-    width: 77px;
+    width: 300px;
+    height: 180px;
+    align-content: center;
+    border-radius: 8px;    
 }
 
 #third-col--flex{
     display: flex;
     justify-content: center;
-    gap: 2.3em;
+    gap: 3.5em;
 }
 
 #third-col--flex div{
-    width: 387px;
-    height: 300px;
-    background-color: #083434;
-    margin-top: 1.3em;
-    padding: 19px;
-    border-radius: 27px;
+    width: 320px;
+    height: 380px;
+    background-color: #ffffff;
+    border:1px solid #dadada;
+    margin-top: 1.8em;
+    padding: 10px;
+    /* padding-top: 0; */
+    border-radius: 10px;
 }
 
 #third-col--flex div:hover{
-    background-color: black;
+    /* background-color: black; */
     cursor: pointer;
     scale: 1.1;
-    transition: 0.5s;
+    transition: 0.8s;
+    background-color: #dadada;
 }
 
 
 #third-col--flex span{
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
 #third-col--flex p{
     font-size: 1rem;
-    color: white;
+    color: black;
     margin-top: 1.7em;
     line-height: 24px;
 }
+/* -------------------------------------------------------- */
 
 #work-id{
     text-align: center;
