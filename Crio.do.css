@@ -166,8 +166,11 @@ nav button:hover{
     border-radius: 10px;
 }
 
+#third-col--flex div a{
+    text-decoration: none;
+}
+
 #third-col--flex div:hover{
-    /* background-color: black; */
     cursor: pointer;
     scale: 1.1;
     transition: 0.8s;
