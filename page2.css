@@ -127,16 +127,59 @@ hr{
 }
 
 /* --------------------------------------------------------------------------------- */
-.ai-ml img{
+.ai-ml img:nth-child(1){
     width: 370px;
     margin-right: 10px;
 }
 /* ---------------------------------------------------------------------------------------------------- */
 
 .roadmap img{
-    width: 80%;
+    width: 85%;
     height: auto;
-    padding-top: 10px;
+    padding: 10%;
+    padding-top: 18px;
     align-items: center;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
+
+/* ------------------------------------------Footer-------------------------------------------------- */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 80px 20px 80px;
+    margin-top: 3em;
+    height:fit-content;
+    background-color: #083434;
+    gap: 3em;
+}
+footer div p{
+    padding: 10px;
+    color:white;
+}
+
+footer div h4, div:last-child h2{
+    color: white;
+    padding: 5px;
+}
+
+footer div:last-child ul li{
+    list-style-type: none;
+    color: white;
+    padding: 5px;
+}
+
+.social{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.social a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-right: 15px;
+}
+
+.social a ion-icon:hover{
+    scale: 1.7;
+    transition: 0.8s;
+}
+
