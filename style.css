@@ -9,7 +9,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 17px;
+    padding: 15px;
     align-items: center;
     background-color: #083434;
     position: sticky;
@@ -18,10 +18,13 @@ nav{
 }
 
 nav img{
-    width: 189px;
-    border-radius: 7px;
-    background-color: white;
-    padding: 4px 47px 4px 7px;
+    width: auto;
+    height: 90px;
+    align-items: center;
+    border-radius: 30px;
+    /* background-color: white; */
+    /* padding: 4px 47px 4px 7px; */
+    /* padding-left:4px ; */
 }
 
 nav ul{
@@ -166,7 +169,7 @@ nav button:hover{
 
 #third-col--flex div:hover{
     cursor: pointer;
-    scale: 1.1;
+    scale: 1.04;
     transition: 0.8s;
     background-color: #dadada;
 }
